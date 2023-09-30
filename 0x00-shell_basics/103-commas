@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a ./,..,0-commas,0-commas 
+ls -a ./,0-commas,0-commas 
