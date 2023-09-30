@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -apm | sort -d
+find . -maxdepth 1 -name '.*' -o -printf '%f,/' | LC_COLLATE=C sort -t/ -k2 | awk '{gsub(/,/,"");}1' | tr '\n' ','; echo
