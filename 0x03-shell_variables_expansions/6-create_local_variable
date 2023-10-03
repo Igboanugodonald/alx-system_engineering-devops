@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'alx is the BEST':$(School)
+BEST=School
