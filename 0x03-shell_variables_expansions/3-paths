@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d -name PATH
+echo $PATH | tr ":" "/n" | wc -i
